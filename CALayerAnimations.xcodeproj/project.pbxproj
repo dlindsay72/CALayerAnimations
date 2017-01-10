@@ -12,6 +12,7 @@
 		7B7DD7A11E25A00800320F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DD79F1E25A00800320F0F /* Main.storyboard */; };
 		7B7DD7A31E25A00800320F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DD7A21E25A00800320F0F /* Assets.xcassets */; };
 		7B7DD7A61E25A00800320F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DD7A41E25A00800320F0F /* LaunchScreen.storyboard */; };
+		7B7DD7AE1E25A0F300320F0F /* SpinMeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7DD7AD1E25A0F300320F0F /* SpinMeLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7B7DD7A21E25A00800320F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7DD7A51E25A00800320F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7DD7A71E25A00800320F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7DD7AD1E25A0F300320F0F /* SpinMeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinMeLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				7B7DD79B1E25A00800320F0F /* AppDelegate.swift */,
+				7B7DD7AD1E25A0F300320F0F /* SpinMeLayer.swift */,
 				7B7DD79D1E25A00800320F0F /* ViewController.swift */,
 				7B7DD79F1E25A00800320F0F /* Main.storyboard */,
 				7B7DD7A21E25A00800320F0F /* Assets.xcassets */,
@@ -97,6 +100,7 @@
 					7B7DD7971E25A00800320F0F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 999T2QHS45;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B7DD79E1E25A00800320F0F /* ViewController.swift in Sources */,
+				7B7DD7AE1E25A0F300320F0F /* SpinMeLayer.swift in Sources */,
 				7B7DD79C1E25A00800320F0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +268,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 999T2QHS45;
 				INFOPLIST_FILE = CALayerAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omnificCondition.CALayerAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +282,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 999T2QHS45;
 				INFOPLIST_FILE = CALayerAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omnificCondition.CALayerAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";

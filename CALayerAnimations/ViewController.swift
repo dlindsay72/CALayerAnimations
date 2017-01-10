@@ -9,10 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let layer = SpinMeLayer(withNumberOfItems: 6)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = UIColor.darkGray
+        view.layer.addSublayer(layer)
+        layer.color = UIColor.white
+        spin(nil)
+        
+        
+        
+    }
+    
+    @IBAction func spin(_ sender: AnyObject?) {
+        layer.startAnimating()
+    }
+    
+    @IBAction func halt(_ sender: Any) {
+        layer.stopAnimating()
     }
 
     override func didReceiveMemoryWarning() {
